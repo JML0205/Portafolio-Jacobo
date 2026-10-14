@@ -1,0 +1,335 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Portafolio profesional de Jacobo Morales Londoño, estudiante de Ingeniería Informática.">
+    <meta name="theme-color" content="#fbfcfe">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Jacobo Morales Londoño | Portafolio">
+    <meta property="og:description" content="Estudiante de Ingeniería Informática. Formación, proyectos, tecnologías y áreas de interés.">
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231452b8'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3Ejm%3C/text%3E%3C/svg%3E">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>Jacobo Morales Londoño | Portafolio</title>
+    <!-- Bootstrap 5: framework responsive utilizado en el proyecto. -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <!-- Estilos propios del portafolio. -->
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <a class="skip-link" href="#sobre-mi">Saltar al contenido</a>
+    <!-- Barra que muestra el avance de lectura -->
+    <div class="scroll-progress" id="scrollProgress" role="progressbar" aria-label="Progreso de lectura" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0"></div>
+    <!-- Navegación principal -->
+    <header class="site-header sticky-top">
+      <nav class="navbar navbar-expand-md" aria-label="Navegación principal">
+        <div class="container portfolio-width">
+          <a class="navbar-brand brand" href="#inicio"><span class="brand-mark">jm.</span> Jacobo Morales<span class="text-brand">.</span></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir o cerrar navegación">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="mainNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#sobre-mi">Sobre mí</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#formacion">Formación</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#proyectos">Proyectos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#habilidades">Habilidades</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#intereses">Intereses</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contacto">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <main id="inicio" class="container portfolio-width">
+      <!-- Presentación personal -->
+      <section class="intro">
+        <div class="intro-content">
+        <p class="eyebrow">
+          <span class="status-dot"></span> Portafolio profesional
+        </p>
+        <h1>
+          Hola, soy Jacobo<br>Morales<span class="text-brand">.</span>
+        </h1>
+        <p class="intro-title">
+          Estudiante de Ingeniería Informática · 4.º semestre
+        </p>
+        <p class="intro-copy">
+          Estudio Ingeniería Informática en la Corporación Universitaria Lasallista. Me interesa transformar ideas en soluciones digitales y aprender mediante proyectos que combinan tecnología y creatividad.
+        </p>
+        <div class="d-flex flex-wrap gap-2 mt-4">
+          <a class="btn btn-primary" href="#proyectos">Ver mi proyecto</a><a class="btn btn-outline-secondary" href="#contacto">Contáctame</a>
+        </div>
+        <div class="intro-meta">
+          <span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20 10c0 5-8 12-8 12S4 15 4 10a8 8 0 1 1 16 0Z"/><circle cx="12" cy="10" r="2.5"/></svg>Caldas, Antioquia</span><span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-12-2 14"/></svg>Cuarto semestre</span>
+        </div>
+        </div>
+        <figure class="intro-figure">
+          <picture>
+            <source srcset="assets/jacobo-morales.webp" type="image/webp">
+            <img class="intro-photo" src="assets/jacobo-morales.jpg" width="902" height="1020" alt="Retrato de Jacobo Morales con toga azul y diploma durante su graduación de bachillerato" fetchpriority="high">
+          </picture>
+          <figcaption class="intro-badge">
+            <strong>Bachiller 2024</strong>
+            <span>Colegio Tercer Milenio</span>
+          </figcaption>
+        </figure>
+      </section>
+      <!-- Información personal -->
+      <section id="sobre-mi" class="portfolio-section">
+        <div class="section-heading">
+          <span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c.4-3.6 2.8-5.5 7-5.5s6.6 1.9 7 5.5"/></svg></span>
+          <h2>
+            Sobre mí
+          </h2>
+        </div>
+        <div class="row g-4">
+          <div class="col-md-7">
+            <p class="section-copy">
+              Soy Jacobo Morales Londoño, estudiante de Ingeniería Informática en la Corporación Universitaria Lasallista. Actualmente curso cuarto semestre y vivo en Caldas, Antioquia. Me interesa el desarrollo de software y cómo la tecnología puede ayudar a resolver problemas cotidianos.
+            </p>
+          </div>
+          <div class="col-md-5">
+            <dl class="details">
+              <div>
+                <dt>
+                  Nombre
+                </dt>
+                <dd>
+                  Jacobo Morales Londoño
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Perfil
+                </dt>
+                <dd>
+                  Ingeniería Informática · 4.º semestre
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Ubicación
+                </dt>
+                <dd>
+                  Caldas, Antioquia
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Correo
+                </dt>
+                <dd>
+                  <a href="mailto:jaco.mora.lon@gmail.com">jaco.mora.lon@gmail.com</a>
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  Teléfono
+                </dt>
+                <dd>
+                  <a href="tel:+573045624547">304 562 4547</a>
+                </dd>
+              </div>
+              <div>
+                <dt>
+                  GitHub
+                </dt>
+                <dd>
+                  <a href="https://github.com/JML0205" target="_blank" rel="noopener">github.com/JML0205</a>
+                </dd>
+              </div>
+            </dl>
+          </div>
+        </div>
+      </section>
+      <!-- Formación académica -->
+      <section id="formacion" class="portfolio-section">
+        <div class="section-heading">
+          <span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5L2 9Z"/><path d="M6 11v5c3.6 2.5 8.4 2.5 12 0v-5M22 9v6"/></svg></span>
+          <h2>
+            Formación académica
+          </h2>
+        </div>
+        <div class="study-row">
+          <div class="study-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5L2 9Z"/><path d="M6 11v5c3.6 2.5 8.4 2.5 12 0v-5M22 9v6"/></svg>
+          </div>
+          <div>
+            <h3>
+              Ingeniería Informática
+            </h3>
+            <p>
+              Corporación Universitaria Lasallista · Cuarto semestre, en curso
+            </p>
+          </div>
+          <span class="study-state">En curso</span>
+        </div>
+          <div class="study-row">
+          <div class="study-icon" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="m2 9 10-5 10 5-10 5L2 9Z"/><path d="M6 11v5c3.6 2.5 8.4 2.5 12 0v-5M22 9v6"/></svg>
+          </div>
+          <div>
+            <h3>
+              Bachiller académico
+            </h3>
+            <p>
+              Colegio Tercer Milenio · Caldas, Antioquia · Graduado en 2024
+            </p>
+          </div>
+          <span class="study-state">Graduado</span>
+        </div>
+      </section>
+      <!-- Proyecto académico -->
+      <section id="proyectos" class="portfolio-section">
+        <div class="section-heading">
+          <span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M3 6.5h7l2 2h9v10H3z"/><path d="M3 8.5V5h7l2 2"/></svg></span>
+          <h2>
+            Proyecto seleccionado
+          </h2>
+        </div>
+        <article class="project-card">
+          <img class="project-img" src="assets/ets-infoplus.webp" width="1200" height="900" loading="lazy" alt="Portada del proyecto ETS InfoPlus: logo con birrete y código, el lema «Información que te cuida, prevención que te protege», libros sobre salud sexual y un celular con el menú del sitio.">
+          <div class="project-body">
+            <p class="project-category">
+              Proyecto académico en equipo
+            </p>
+            <h3>
+              ETS InfoPlus
+            </h3>
+            <p>
+              ETS InfoPlus es una plataforma educativa sobre salud sexual y prevención de ITS, creada en equipo. Mi participación fue la búsqueda y selección de la información, la presentación del proyecto y el desarrollo en HTML y CSS. El sitio usa Bootstrap 5 para adaptarse a celulares, tabletas y computadores.
+            </p>
+            <div class="tags">
+              <span>HTML5</span><span>CSS3</span><span>Bootstrap 5</span><span>Investigación</span><span>Presentación</span>
+            </div>
+            <a class="btn btn-primary mt-3" href="proyecto-ets/index.html" target="_blank" rel="noopener">Ver sitio del proyecto</a>
+            <p class="fine-print">
+              Proyecto realizado en equipo. El contenido es educativo, no ofrece diagnósticos y los recursos externos requieren internet.
+            </p>
+          </div>
+        </article>
+      </section>
+      <!-- Lenguajes y tecnologías -->
+      <section id="habilidades" class="portfolio-section">
+        <div class="section-heading">
+          <span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="m8 7-5 5 5 5m8-10 5 5-5 5m-3-12-2 14"/></svg></span>
+          <h2>
+            Lenguajes y tecnologías
+          </h2>
+        </div>
+        <p class="section-intro">
+          Nivel intermedio en las tecnologías principales, aplicado en ejercicios y proyectos académicos. Programo en Visual Studio Code y NetBeans.
+        </p>
+        <div class="row g-3 skill-groups">
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="skill-group">
+              <h3>Lenguajes</h3>
+              <ul><li><span>Python</span><em>Intermedio</em></li><li><span>Java</span><em>Intermedio</em></li><li><span>JavaScript</span><em>Intermedio</em></li></ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="skill-group">
+              <h3>Desarrollo web</h3>
+              <ul><li><span>HTML</span><em>Intermedio</em></li><li><span>CSS</span><em>Intermedio</em></li><li><span>Bootstrap 5</span><em>Intermedio</em></li></ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="skill-group">
+              <h3>Bases de datos</h3>
+              <ul><li><span>MongoDB</span><em>Intermedio</em></li></ul>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-3">
+            <div class="skill-group">
+              <h3>Herramientas</h3>
+              <ul><li><span>Visual Studio Code</span></li><li><span>NetBeans</span></li><li><span>Git y GitHub</span></li></ul>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Intereses profesionales -->
+      <section id="intereses" class="portfolio-section">
+        <div class="section-heading">
+          <span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><circle cx="12" cy="12" r="5"/><circle cx="12" cy="12" r="1"/><path d="m13 11 5-5"/></svg></span>
+          <h2>
+            Áreas de interés
+          </h2>
+        </div>
+        <p class="section-intro">
+          Son campos que despiertan mi curiosidad y en los que quiero seguir aprendiendo. Me interesa entender sus principios y cómo pueden aportar soluciones útiles a las personas.
+        </p>
+        <div class="row g-4">
+          <article class="col-12 col-lg-4 interest">
+            <span class="interest-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M12 3 20 6v5c0 5-3.5 8.5-8 10-4.5-1.5-8-5-8-10V6l8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
+            <h3>
+              Ciberseguridad
+            </h3>
+            <p>
+              Me interesa aprender cómo se protegen los sistemas, las redes y los datos, cómo se identifican posibles riesgos y qué buenas prácticas ayudan a construir tecnología más segura y confiable.
+            </p>
+          </article>
+          <article class="col-12 col-lg-4 interest">
+            <span class="interest-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M9 4a3 3 0 0 0-5 2.2A3.5 3.5 0 0 0 4 13a3.5 3.5 0 0 0 5 5.8V4Zm6 0a3 3 0 0 1 5 2.2A3.5 3.5 0 0 1 20 13a3.5 3.5 0 0 1-5 5.8V4Z"/><path d="M9 8H7m2 5H6m9-5h2m-2 5h3m-9 5v2m6-2v2"/></svg></span>
+            <h3>
+              Inteligencia artificial
+            </h3>
+            <p>
+              Quiero comprender cómo los sistemas inteligentes procesan información, reconocen patrones y apoyan la solución de problemas, además de conocer sus aplicaciones y retos de uso responsable.
+            </p>
+          </article>
+          <article class="col-12 col-lg-4 interest">
+            <span class="interest-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="13" rx="2"/><path d="M8 21h8m-4-4v4m-7-13h14"/></svg></span>
+            <h3>
+              Desarrollo web
+            </h3>
+            <p>
+              Me interesa crear sitios y aplicaciones que sean claros, accesibles y adaptables a distintos dispositivos. Este campo me permite combinar estructura, diseño e interactividad para ofrecer una experiencia útil a quien los utiliza.
+            </p>
+          </article>
+        </div>
+      </section>
+      <!-- Contacto -->
+      <section id="contacto" class="portfolio-section">
+        <div class="section-heading">
+          <span class="section-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 6h16v12H4z"/><path d="m4 7 8 6 8-6"/></svg></span>
+          <h2>Contacto</h2>
+        </div>
+        <p class="section-intro">Si quieres conocer más de mi trabajo o hablar de una oportunidad, escríbeme.</p>
+        <div class="row g-3">
+          <div class="col-12 col-md-4"><a class="contact-link" href="mailto:jaco.mora.lon@gmail.com"><strong>Correo</strong><span>jaco.mora.lon@gmail.com</span></a></div>
+          <div class="col-12 col-md-4"><a class="contact-link" href="https://wa.me/573045624547" target="_blank" rel="noopener"><strong>WhatsApp</strong><span>304 562 4547</span></a></div>
+          <div class="col-12 col-md-4"><a class="contact-link" href="https://github.com/JML0205" target="_blank" rel="noopener"><strong>GitHub</strong><span>github.com/JML0205</span></a></div>
+        </div>
+      </section>
+    </main>
+    <!-- Pie de página -->
+    <footer class="site-footer">
+      <div class="container portfolio-width d-flex justify-content-between flex-wrap gap-3">
+        <span>© <span id="year">2026</span> Jacobo Morales Londoño · Portafolio profesional</span><a href="#inicio">Volver al inicio ↑</a>
+      </div>
+    </footer>
+    <!-- Botón para volver al inicio, aparece al desplazarse por la página -->
+    <button class="back-to-top" id="backToTop" type="button" aria-label="Volver al inicio" title="Volver al inicio" hidden>
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 14 6-6 6 6M12 8v11"/></svg>
+    </button>
+    <!-- Bootstrap Bundle: componentes interactivos y menú responsive. -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <!-- JavaScript propio: interacciones del portafolio. -->
+    <script src="script.js"></script>
+  </body>
+</html>

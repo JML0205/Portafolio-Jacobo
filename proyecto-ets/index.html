@@ -1,0 +1,234 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="ETS InfoPlus: recursos educativos para aprender sobre prevención, pruebas y atención de las infecciones de transmisión sexual.">
+  <meta name="theme-color" content="#f5f9fc">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%231452b8'/%3E%3Ctext x='32' y='42' font-size='28' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'%3Ejm%3C/text%3E%3C/svg%3E">
+    <title>ETS InfoPlus | Educación y cuidado sexual</title>
+  <!-- Bootstrap 5: sistema de cuadrícula, componentes y diseño responsive. -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <!-- Estilos personalizados del sitio. -->
+  <link rel="stylesheet" href="style.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- Navegación principal -->
+  <header class="site-header sticky-top">
+    <nav class="navbar navbar-expand-lg" aria-label="Navegación principal">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio" aria-label="ETS InfoPlus, inicio">
+          <span class="brand-mark" aria-hidden="true">+</span><span>ETS <strong>InfoPlus</strong></span>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Abrir o cerrar menú">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto align-items-lg-center">
+            <li class="nav-item"><a class="nav-link" href="#general-info">Aprende</a></li>
+            <li class="nav-item"><a class="nav-link" href="#faq">Preguntas</a></li>
+            <li class="nav-item"><a class="nav-link" href="#videos">Videos</a></li>
+            <li class="nav-item"><a class="nav-link" href="#resources">Ayuda</a></li>
+            <li class="nav-item ms-lg-2"><a class="btn btn-brand btn-sm" href="#tools">Explorar recursos</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <main id="contenido">
+    <!-- Portada y propósito del proyecto -->
+    <section class="hero-section" id="inicio">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow"><span class="eyebrow-dot"></span> INFORMACIÓN CLARA, CUIDADO SIN ESTIGMAS</p>
+          <h1>Conocer también es <span>cuidarse.</span></h1>
+          <p class="hero-lead">Un espacio educativo para resolver dudas sobre las infecciones de transmisión sexual, conocer formas de prevención y encontrar orientación confiable.</p>
+          <div class="d-flex flex-wrap gap-3 mt-4">
+            <a class="btn btn-brand" href="#general-info">Conoce las ITS <span aria-hidden="true">→</span></a>
+            <a class="btn btn-outline-brand" href="#resources">Encuentra ayuda</a>
+          </div>
+          <p class="hero-note"><span aria-hidden="true">ⓘ</span> Este sitio informa; no reemplaza una consulta ni un diagnóstico profesional.</p>
+        </div>
+        <div class="hero-art" aria-label="Ilustración vectorial de salud y bienestar" role="img">
+          <svg viewBox="0 0 520 410" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+            <rect x="45" y="36" width="430" height="330" rx="34" fill="#e4f2fa"/>
+            <circle cx="385" cy="100" r="47" fill="#c6e4f5"/>
+            <path d="M92 290c47-42 93-44 140-5 43 35 94 41 148 5 32-21 65-26 98-13v58H92z" fill="#b5d9ee"/>
+            <rect x="185" y="95" width="150" height="210" rx="28" fill="#fff"/>
+            <rect x="201" y="116" width="118" height="166" rx="15" fill="#f3f9fd"/>
+            <path d="M260 151c-21-22-52 9 0 49 52-40 21-71 0-49Z" fill="#1679ae"/>
+            <path d="M260 168v53m-26-27h52" stroke="#fff" stroke-width="8" stroke-linecap="round"/>
+            <circle cx="260" cy="294" r="5" fill="#c6e4f5"/>
+            <path d="M124 126h34m-17-17v34M378 237h38m-19-19v38" stroke="#1679ae" stroke-width="5" stroke-linecap="round"/>
+            <circle cx="123" cy="235" r="18" fill="#fff"/><path d="m115 235 6 6 11-13" fill="none" stroke="#1679ae" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+          </svg>
+          <div class="hero-badge"><span class="badge-icon" aria-hidden="true">✓</span><span><strong>Infórmate</strong><small>con fuentes confiables</small></span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Accesos a las secciones informativas -->
+    <section class="quick-links" aria-label="Explora el contenido">
+      <div class="container quick-links-grid">
+        <a href="#general-info"><span class="quick-number">01</span><span><strong>Información</strong><small>Conceptos y prevención</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a href="#myths"><span class="quick-number">02</span><span><strong>Mitos y realidades</strong><small>Aclara dudas frecuentes</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a href="#videos"><span class="quick-number">03</span><span><strong>Videos</strong><small>Aprende en pocos minutos</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+        <a href="#resources"><span class="quick-number">04</span><span><strong>Recursos de ayuda</strong><small>Consulta fuentes oficiales</small></span><span class="arrow" aria-hidden="true">↗</span></a>
+      </div>
+    </section>
+
+    <!-- Introducción y objetivos del proyecto -->
+    <section class="section-space" id="intro">
+      <div class="container intro-grid">
+        <div>
+          <p class="eyebrow">SOBRE ESTE PROYECTO</p>
+          <h2>Un lugar para aprender <span>sin prejuicios.</span></h2>
+        </div>
+        <div class="intro-text">
+          <p>ETS InfoPlus es un proyecto educativo creado para acercar información sencilla sobre salud sexual. Reúne conceptos básicos, respuestas a preguntas frecuentes, materiales audiovisuales y enlaces a organizaciones que pueden orientar a quienes buscan atención.</p>
+          <p>Está dirigido a jóvenes, familias, educadores y cualquier persona que quiera informarse. La información presentada es general y no sustituye la valoración individual de profesionales de salud.</p>
+          <a class="text-link" href="#objectives">Conoce el propósito del sitio <span aria-hidden="true">→</span></a>
+        </div>
+      </div>
+    </section>
+
+    <section class="section-space objectives-section" id="objectives">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">PROPÓSITO</p><h2>Información que ayuda a tomar decisiones.</h2></div>
+        <div class="row g-4">
+          <div class="col-md-4"><article class="purpose-card h-100"><span class="purpose-icon" aria-hidden="true">01</span><h3>Informar</h3><p>Explicar qué son las ITS y cómo se transmiten con un lenguaje respetuoso y comprensible.</p></article></div>
+          <div class="col-md-4"><article class="purpose-card h-100"><span class="purpose-icon" aria-hidden="true">02</span><h3>Promover el cuidado</h3><p>Compartir recursos sobre prevención, pruebas y consulta oportuna con profesionales.</p></article></div>
+          <div class="col-md-4"><article class="purpose-card h-100"><span class="purpose-icon" aria-hidden="true">03</span><h3>Orientar</h3><p>Facilitar el acceso a fuentes oficiales y servicios de salud sexual y reproductiva.</p></article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Conceptos generales y fichas educativas -->
+    <section class="section-space" id="general-info">
+      <div class="container">
+        <div class="section-heading section-heading-row"><div><p class="eyebrow">APRENDE</p><h2>Información general</h2></div><span class="section-index">01 — 04</span></div>
+        <div class="definition-card mb-5">
+          <div class="definition-icon" aria-hidden="true">i</div>
+          <div><h3>¿Qué son las ITS?</h3><p>Las infecciones de transmisión sexual son causadas por microorganismos como bacterias, virus o parásitos. Pueden transmitirse durante el contacto sexual y, en algunos casos, por otras vías. Algunas no presentan síntomas; por eso, una prueba y la orientación profesional son importantes cuando existe una posible exposición.</p><a class="text-link" href="https://www2.minsalud.gov.co/salud/publica/ssr/Paginas/infecciones-transmision-sexual-vih-sida.aspx" target="_blank" rel="noopener noreferrer">Información del Ministerio de Salud de Colombia <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="d-flex flex-wrap justify-content-between align-items-end gap-3 mb-3"><div><p class="eyebrow">CONCEPTOS CLAVE</p><h3 class="subheading">Algunas infecciones frecuentes</h3></div><p class="muted mb-1">Selecciona “Más información” para consultar una fuente confiable.</p></div>
+        <div class="row g-4" id="types">
+          <div class="col-md-6 col-lg-4"><article class="condition-card h-100"><div class="condition-top tone-mint"><span class="condition-symbol" aria-hidden="true">C</span><span class="condition-label">BACTERIANA</span></div><div class="condition-body"><h4>Clamidia</h4><p>Puede no presentar síntomas. Cuando aparecen, pueden incluir molestias al orinar o secreciones. La evaluación y el tratamiento corresponden a profesionales de salud.</p><a href="https://www.who.int/es/news-room/fact-sheets/detail/chlamydia" target="_blank" rel="noopener noreferrer" class="text-link">Más información <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="condition-card h-100"><div class="condition-top tone-blue"><span class="condition-symbol" aria-hidden="true">V</span><span class="condition-label">VIRAL</span></div><div class="condition-body"><h4>VIH</h4><p>El VIH afecta el sistema inmunitario. Las pruebas permiten conocer el estado serológico y el tratamiento antirretroviral ayuda a controlar la infección.</p><a href="https://www.who.int/es/news-room/fact-sheets/detail/hiv-aids" target="_blank" rel="noopener noreferrer" class="text-link">Más información <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="condition-card h-100"><div class="condition-top tone-peach"><span class="condition-symbol" aria-hidden="true">S</span><span class="condition-label">BACTERIANA</span></div><div class="condition-body"><h4>Sífilis</h4><p>Puede avanzar por etapas y no siempre presenta señales fáciles de reconocer. Las pruebas y el tratamiento oportuno son importantes.</p><a href="https://www.who.int/es/news-room/fact-sheets/detail/syphilis" target="_blank" rel="noopener noreferrer" class="text-link">Más información <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="condition-card h-100"><div class="condition-top tone-lilac"><span class="condition-symbol" aria-hidden="true">G</span><span class="condition-label">BACTERIANA</span></div><div class="condition-body"><h4>Gonorrea</h4><p>Puede afectar distintas partes del cuerpo y algunas personas no notan síntomas. Una prueba clínica determina si existe infección.</p><a href="https://www.who.int/es/news-room/fact-sheets/detail/gonorrhoea-%28neisseria-gonorrhoeae-infection%29" target="_blank" rel="noopener noreferrer" class="text-link">Más información <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="condition-card h-100"><div class="condition-top tone-yellow"><span class="condition-symbol" aria-hidden="true">V</span><span class="condition-label">VIRAL</span></div><div class="condition-body"><h4>Virus del papiloma humano</h4><p>Es una infección frecuente. La vacunación y los controles recomendados por el equipo de salud ayudan a prevenir complicaciones.</p><a href="https://www.who.int/es/news-room/fact-sheets/detail/human-papilloma-virus-and-cancer" target="_blank" rel="noopener noreferrer" class="text-link">Más información <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-6 col-lg-4"><article class="condition-card h-100"><div class="condition-top tone-rose"><span class="condition-symbol" aria-hidden="true">H</span><span class="condition-label">VIRAL</span></div><div class="condition-body"><h4>Herpes genital</h4><p>Puede causar lesiones, aunque también puede no dar síntomas visibles. Un profesional puede orientar el diagnóstico y el manejo.</p><a href="https://www.who.int/es/news-room/fact-sheets/detail/herpes-simplex-virus" target="_blank" rel="noopener noreferrer" class="text-link">Más información <span aria-hidden="true">↗</span></a></div></article></div>
+        </div>
+        <p class="source-note mt-3">Contenido resumido con propósito educativo. Las descripciones no permiten identificar ni diagnosticar una infección.</p>
+      </div>
+    </section>
+
+    <!-- Preguntas frecuentes -->
+    <section class="section-space soft-section" id="faq">
+      <div class="container faq-layout">
+        <div class="section-heading"><p class="eyebrow">RESPUESTAS CLARAS</p><h2>Preguntas frecuentes</h2><p class="muted">Si tienes una inquietud personal, consulta con un servicio de salud.</p></div>
+        <div class="accordion faq-accordion" id="faqAccordion">
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#faqOne" aria-expanded="true" aria-controls="faqOne">¿Una ITS siempre causa síntomas?</button></h3><div id="faqOne" class="accordion-collapse collapse show" data-bs-parent="#faqAccordion"><div class="accordion-body">No siempre. Algunas infecciones pueden no causar síntomas visibles. Si hubo una posible exposición o tienes dudas, una prueba y la orientación profesional pueden ayudar.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqTwo" aria-expanded="false" aria-controls="faqTwo">¿Cómo puedo saber si tengo una ITS?</button></h3><div id="faqTwo" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">La manera de confirmarlo es consultar con un profesional y realizar las pruebas indicadas. Un cuestionario o una lista de síntomas no reemplaza esas pruebas.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqThree" aria-expanded="false" aria-controls="faqThree">¿Se pueden prevenir las ITS?</button></h3><div id="faqThree" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">Hay estrategias de prevención, como el uso correcto de preservativos, la vacunación disponible para algunas infecciones, pruebas y asesoría en salud sexual. El equipo de salud puede explicar cuáles aplican a cada persona.</div></div></div>
+          <div class="accordion-item"><h3 class="accordion-header"><button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#faqFour" aria-expanded="false" aria-controls="faqFour">¿Las ITS tienen tratamiento?</button></h3><div id="faqFour" class="accordion-collapse collapse" data-bs-parent="#faqAccordion"><div class="accordion-body">El tratamiento depende de la infección. Algunas se curan con medicamentos y otras pueden controlarse. Evita automedicarte y sigue las indicaciones de personal de salud.</div></div></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Mitos y realidades -->
+    <section class="section-space" id="myths">
+      <div class="container">
+        <div class="section-heading section-heading-row"><div><p class="eyebrow">HABLEMOS CON DATOS</p><h2>Mitos y realidades</h2></div><a class="text-link" href="https://www.who.int/es/health-topics/sexually-transmitted-infections" target="_blank" rel="noopener noreferrer">Consultar a la OMS <span aria-hidden="true">↗</span></a></div>
+        <div class="row g-4">
+          <div class="col-md-4"><article class="myth-card h-100"><span class="myth-tag">MITO</span><h3>“Si no tengo síntomas, no tengo una ITS”.</h3><div class="reality"><strong>REALIDAD</strong><p>Algunas ITS pueden no causar síntomas. Las pruebas son importantes cuando existe una posible exposición.</p></div></article></div>
+          <div class="col-md-4"><article class="myth-card h-100"><span class="myth-tag">MITO</span><h3>“Puedo saberlo solo por cómo me siento”.</h3><div class="reality"><strong>REALIDAD</strong><p>Los síntomas pueden tener varias causas. El diagnóstico requiere evaluación y pruebas indicadas por profesionales.</p></div></article></div>
+          <div class="col-md-4"><article class="myth-card h-100"><span class="myth-tag">MITO</span><h3>“Hablar del tema debe dar vergüenza”.</h3><div class="reality"><strong>REALIDAD</strong><p>La salud sexual hace parte de la salud integral. Buscar información y atención merece respeto y privacidad.</p></div></article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Herramientas educativas: orientación no diagnóstica y búsqueda de servicios -->
+    <section class="section-space tools-section" id="tools">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">RECURSOS INTERACTIVOS</p><h2>Da el siguiente paso con información.</h2><p class="muted">Estas herramientas no recopilan tus datos ni diagnostican.</p></div>
+        <div class="row g-4">
+          <div class="col-lg-6"><article class="tool-card h-100"><div class="tool-icon" aria-hidden="true">✓</div><p class="eyebrow">ORIENTACIÓN EDUCATIVA</p><h3>¿Conviene consultar?</h3><p>Responde de forma privada en tu dispositivo. No se envían respuestas a ningún servidor.</p><form id="orientationForm"><fieldset><legend class="form-label">¿Cuál opción describe mejor tu situación?</legend><div class="form-check"><input class="form-check-input" type="radio" name="orientation" id="answerSymptoms" value="symptoms" required><label class="form-check-label" for="answerSymptoms">Tengo síntomas o cambios que me preocupan</label></div><div class="form-check"><input class="form-check-input" type="radio" name="orientation" id="answerExposure" value="exposure"><label class="form-check-label" for="answerExposure">Tuve una posible exposición y quiero orientación</label></div><div class="form-check"><input class="form-check-input" type="radio" name="orientation" id="answerLearn" value="learn"><label class="form-check-label" for="answerLearn">Solo quiero aprender sobre prevención</label></div></fieldset><button class="btn btn-brand mt-3" type="submit">Ver orientación</button></form><div id="orientationResult" class="orientation-result" role="status" aria-live="polite" hidden></div><p class="source-note mb-0 mt-3">No ingreses información personal o médica en este sitio.</p></article></div>
+          <div class="col-lg-6"><article class="tool-card h-100"><div class="tool-icon" aria-hidden="true">⌖</div><p class="eyebrow">BUSCADOR DE SERVICIOS</p><h3>Encuentra atención cerca de ti</h3><p>Busca centros y servicios de salud sexual en tu ciudad. Los resultados los ofrece Google Maps y debes confirmar directamente la disponibilidad.</p><form id="clinicSearchForm" class="row g-2"><div class="col-sm-8"><label class="visually-hidden" for="cityInput">Ciudad o municipio</label><input class="form-control" id="cityInput" name="city" placeholder="Ej. Caldas, Antioquia" required></div><div class="col-sm-4 d-grid"><button class="btn btn-brand" type="submit">Buscar</button></div></form><div id="clinicSearchResult" class="mt-3" aria-live="polite"></div><a class="text-link d-inline-block mt-3" href="https://profamilia.org.co/servicios/its/" target="_blank" rel="noopener noreferrer">Servicios de ITS de Profamilia <span aria-hidden="true">↗</span></a></article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Videos educativos incrustados desde el canal oficial de Profamilia Colombia -->
+    <section class="section-space" id="videos">
+      <div class="container">
+        <div class="section-heading section-heading-row"><div><p class="eyebrow">MIRA Y APRENDE</p><h2>Videos informativos</h2><p class="muted">Material educativo de Profamilia Colombia.</p></div><a class="text-link" href="https://www.youtube.com/@ProfamiliaColombia" target="_blank" rel="noopener noreferrer">Ver canal <span aria-hidden="true">↗</span></a></div>
+        <div class="row g-4">
+          <div class="col-lg-6"><article class="video-card h-100"><div class="ratio ratio-16x9 video-frame"><iframe src="https://www.youtube-nocookie.com/embed/iPqTQEUbE5c" title="Las Infecciones de Transmisión Sexual (ITS), video de Profamilia Colombia" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="video-caption"><span class="video-kicker">VIDEO EDUCATIVO</span><h3>Las infecciones de transmisión sexual</h3><p>Factores de riesgo y señales que pueden requerir orientación.</p><a href="https://www.youtube.com/watch?v=iPqTQEUbE5c" target="_blank" rel="noopener noreferrer" class="text-link">Abrir en YouTube <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-lg-6"><article class="video-card h-100"><div class="ratio ratio-16x9 video-frame"><iframe src="https://www.youtube-nocookie.com/embed/6dmjHLMn4P0" title="Infecciones de Transmisión Sexual, video de Profamilia Colombia" loading="lazy" referrerpolicy="strict-origin-when-cross-origin" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></div><div class="video-caption"><span class="video-kicker">VIDEO EDUCATIVO</span><h3>Conoce las ITS y cómo prevenirlas</h3><p>Una explicación general sobre infecciones de transmisión sexual y prevención.</p><a href="https://www.youtube.com/watch?v=6dmjHLMn4P0" target="_blank" rel="noopener noreferrer" class="text-link">Abrir en YouTube <span aria-hidden="true">↗</span></a></div></article></div>
+        </div>
+        <p class="source-note mt-3">Los videos requieren conexión a internet y pueden depender de la disponibilidad de YouTube.</p>
+      </div>
+    </section>
+
+    <!-- Láminas ilustrativas realizadas con SVG, sin archivos externos -->
+    <section class="section-space soft-section" id="infographics">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">IDEAS PARA RECORDAR</p><h2>Guías visuales</h2><p class="muted">Piezas originales de apoyo educativo: prevención, pruebas y cuidado.</p></div>
+        <div class="row g-4">
+          <div class="col-md-4"><article class="visual-card h-100"><div class="visual-art visual-cyan"><span class="visual-label">PREVENCIÓN</span><svg viewBox="0 0 240 150" role="img" aria-label="Ilustración de escudo de protección"><path d="M120 25 174 45v34c0 35-23 54-54 69-31-15-54-34-54-69V45z" fill="#fff"/><path d="m95 78 17 17 34-38" fill="none" stroke="#1679ae" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></svg></div><div class="visual-copy"><h3>La prevención es un proceso</h3><p>Infórmate sobre preservativos, vacunación y asesoría profesional.</p><a href="https://www.minsalud.gov.co/salud/publica/ssr/Paginas/Metodos-anticonceptivos-modernos.aspx" target="_blank" rel="noopener noreferrer" class="text-link">Ver información oficial <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-4"><article class="visual-card h-100"><div class="visual-art visual-blue"><span class="visual-label">PRUEBAS</span><svg viewBox="0 0 240 150" role="img" aria-label="Ilustración de lista de verificación"><rect x="67" y="20" width="106" height="112" rx="12" fill="#fff"/><path d="M88 53h63M88 79h63M88 105h43" stroke="#b9d9ee" stroke-width="7" stroke-linecap="round"/><circle cx="77" cy="53" r="5" fill="#1679ae"/><circle cx="77" cy="79" r="5" fill="#1679ae"/><circle cx="77" cy="105" r="5" fill="#1679ae"/></svg></div><div class="visual-copy"><h3>Una prueba aclara dudas</h3><p>Consulta cuándo realizarla y cuál es adecuada para tu situación.</p><a href="https://profamilia.org.co/servicios/its/" target="_blank" rel="noopener noreferrer" class="text-link">Consultar servicios <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-4"><article class="visual-card h-100"><div class="visual-art visual-peach"><span class="visual-label">ACOMPAÑAMIENTO</span><svg viewBox="0 0 240 150" role="img" aria-label="Ilustración de dos personas conversando"><circle cx="91" cy="57" r="23" fill="#fff"/><circle cx="151" cy="57" r="23" fill="#fff"/><path d="M48 128c2-31 17-47 43-47s41 16 43 47m-11 0c2-31 17-47 43-47s41 16 43 47" fill="#fff"/></svg></div><div class="visual-copy"><h3>Pedir ayuda está bien</h3><p>Busca servicios de salud que ofrezcan atención respetuosa y confidencial.</p><a href="https://profamilia.org.co/" target="_blank" rel="noopener noreferrer" class="text-link">Conoce Profamilia <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-4"><article class="visual-card h-100"><div class="visual-art visual-blue"><span class="visual-label">SIN SÍNTOMAS</span><svg viewBox="0 0 240 150" role="img" aria-label="Ilustración de una persona y un signo de información"><circle cx="104" cy="58" r="27" fill="#fff"/><path d="M54 136c3-38 20-57 50-57s47 19 50 57" fill="#fff"/><circle cx="184" cy="51" r="26" fill="#b9ddf1"/><path d="M184 45v18m0-28v2" stroke="#176fa6" stroke-width="6" stroke-linecap="round"/></svg></div><div class="visual-copy"><h3>No siempre hay síntomas</h3><p>Una infección puede pasar desapercibida. Ante una exposición, consulta sobre las pruebas.</p><a href="https://www.cdc.gov/sti/about/index.html" target="_blank" rel="noopener noreferrer" class="text-link">Aprende más <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-4"><article class="visual-card h-100"><div class="visual-art visual-cyan"><span class="visual-label">VACUNACIÓN</span><svg viewBox="0 0 240 150" role="img" aria-label="Ilustración vectorial de una vacuna y un escudo"><path d="M120 31 164 47v29c0 28-19 44-44 57-25-13-44-29-44-57V47z" fill="#fff"/><path d="m99 78 14 14 29-32" fill="none" stroke="#176fa6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="m175 34 28 28m-19-37 28 28m-33 2 21-21m-56 56 23-23" stroke="#78b8dc" stroke-width="6" stroke-linecap="round"/></svg></div><div class="visual-copy"><h3>Pregunta por las vacunas</h3><p>Hay vacunas que ayudan a prevenir algunas infecciones, como el VPH y la hepatitis B.</p><a href="https://www.who.int/es/health-topics/sexually-transmitted-infections" target="_blank" rel="noopener noreferrer" class="text-link">Consultar a la OMS <span aria-hidden="true">↗</span></a></div></article></div>
+          <div class="col-md-4"><article class="visual-card h-100"><div class="visual-art visual-blue"><span class="visual-label">ATENCIÓN</span><svg viewBox="0 0 240 150" role="img" aria-label="Ilustración vectorial de una clínica y un símbolo de salud"><rect x="64" y="28" width="112" height="105" rx="12" fill="#fff"/><path d="M91 133V91h58v42m-29-89v35m-17-17h34" fill="none" stroke="#176fa6" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><path d="M81 63h10m58 0h10" stroke="#91c7e3" stroke-width="6" stroke-linecap="round"/></svg></div><div class="visual-copy"><h3>Consulta a tiempo</h3><p>Personal de salud puede orientar pruebas, prevención y atención según cada caso.</p><a href="https://profamilia.org.co/servicios/its/" target="_blank" rel="noopener noreferrer" class="text-link">Opciones de atención <span aria-hidden="true">↗</span></a></div></article></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Recursos oficiales y organizaciones de referencia -->
+    <section class="section-space" id="resources">
+      <div class="container">
+        <div class="section-heading"><p class="eyebrow">FUENTES Y ACOMPAÑAMIENTO</p><h2>Recursos de ayuda</h2><p class="muted">Consulta directamente las páginas oficiales para encontrar información actualizada y opciones de atención.</p></div>
+        <div class="row g-4">
+          <div class="col-md-6"><a class="resource-card" href="https://www2.minsalud.gov.co/salud/publica/ssr/Paginas/infecciones-transmision-sexual-vih-sida.aspx" target="_blank" rel="noopener noreferrer"><span class="resource-mark">MS</span><span><strong>Ministerio de Salud y Protección Social</strong><small>Guías y recursos nacionales sobre ITS</small></span><span class="resource-arrow" aria-hidden="true">↗</span></a></div>
+          <div class="col-md-6"><a class="resource-card" href="https://profamilia.org.co/servicios/its/" target="_blank" rel="noopener noreferrer"><span class="resource-mark">P</span><span><strong>Profamilia</strong><small>Servicios de prevención, diagnóstico y orientación</small></span><span class="resource-arrow" aria-hidden="true">↗</span></a></div>
+          <div class="col-md-6"><a class="resource-card" href="https://www.who.int/es/health-topics/sexually-transmitted-infections" target="_blank" rel="noopener noreferrer"><span class="resource-mark">OMS</span><span><strong>Organización Mundial de la Salud</strong><small>Información internacional sobre ITS</small></span><span class="resource-arrow" aria-hidden="true">↗</span></a></div>
+          <div class="col-md-6"><a class="resource-card" href="https://www.cdc.gov/sti/about/index.html" target="_blank" rel="noopener noreferrer"><span class="resource-mark">CDC</span><span><strong>Centros para el Control y la Prevención de Enfermedades</strong><small>Material informativo sobre ITS</small></span><span class="resource-arrow" aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="help-banner mt-5"><div><p class="eyebrow">¿NECESITAS ATENCIÓN?</p><h3>Habla con un profesional de salud.</h3><p>Comunícate con tu EPS o con un servicio de salud sexual para confirmar disponibilidad, costos y horarios.</p></div><a class="btn btn-light" href="https://profamilia.org.co/servicios/its/" target="_blank" rel="noopener noreferrer">Opciones de atención <span aria-hidden="true">↗</span></a></div>
+      </div>
+    </section>
+
+    <!-- Noticias y sitios de consulta -->
+    <section class="section-space soft-section" id="news">
+      <div class="container">
+        <div class="section-heading section-heading-row"><div><p class="eyebrow">MANTENTE INFORMADO</p><h2>Lecturas y actualidad</h2></div><a class="text-link" href="https://www2.minsalud.gov.co/salud/publica/ssr/Paginas/infecciones-transmision-sexual-vih-sida.aspx" target="_blank" rel="noopener noreferrer">Sala de prensa de MinSalud <span aria-hidden="true">↗</span></a></div>
+        <div class="row g-4">
+          <div class="col-md-4"><article class="reading-card h-100"><span>FUENTE OFICIAL · COLOMBIA</span><h3>Infecciones de transmisión sexual</h3><p>Guías, protocolos y páginas informativas del Ministerio de Salud.</p><a href="https://www2.minsalud.gov.co/salud/publica/ssr/Paginas/infecciones-transmision-sexual-vih-sida.aspx" target="_blank" rel="noopener noreferrer" class="text-link">Leer recurso <span aria-hidden="true">↗</span></a></article></div>
+          <div class="col-md-4"><article class="reading-card h-100"><span>FUENTE OFICIAL · OMS</span><h3>Infecciones de transmisión sexual</h3><p>Panorama general y contenidos de salud pública de la Organización Mundial de la Salud.</p><a href="https://www.who.int/es/health-topics/sexually-transmitted-infections" target="_blank" rel="noopener noreferrer" class="text-link">Leer recurso <span aria-hidden="true">↗</span></a></article></div>
+          <div class="col-md-4"><article class="reading-card h-100"><span>ORIENTACIÓN · PROFAMILIA</span><h3>Servicios de salud sexual</h3><p>Conoce los servicios y canales de atención publicados por Profamilia.</p><a href="https://profamilia.org.co/servicios/its/" target="_blank" rel="noopener noreferrer" class="text-link">Leer recurso <span aria-hidden="true">↗</span></a></article></div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Pie de página -->
+  <footer class="site-footer">
+    <div class="container footer-main">
+      <div><a class="footer-brand" href="#inicio">ETS <strong>InfoPlus</strong></a><p>Educación para el cuidado y el bienestar.</p></div>
+      <div><h2>Explora</h2><a href="#general-info">Información</a><a href="#faq">Preguntas frecuentes</a><a href="#videos">Videos</a></div>
+      <div><h2>Consulta fuentes</h2><a href="https://www.minsalud.gov.co/" target="_blank" rel="noopener noreferrer">Ministerio de Salud ↗</a><a href="https://profamilia.org.co/" target="_blank" rel="noopener noreferrer">Profamilia ↗</a><a href="https://www.who.int/es" target="_blank" rel="noopener noreferrer">OMS ↗</a></div>
+    </div>
+    <div class="container footer-bottom"><p>Proyecto académico colaborativo: Juan José, Jacobo, Samuel, Joseph y Emmanuel.</p><p>© <span id="currentYear">2026</span> ETS InfoPlus · Sitio educativo. No reemplaza atención médica.</p><a href="#inicio">Volver al inicio ↑</a></div>
+  </footer>
+
+  <!-- Bootstrap Bundle habilita el menú móvil y el acordeón FAQ. -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+</body>
+</html>
